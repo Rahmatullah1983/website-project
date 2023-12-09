@@ -20,7 +20,7 @@ function animateSlides() {
     });
     slideTl.fromTo(revealImg, { x: "0%" }, { x: "100%" });
     slideTl.fromTo(img, { scale: 2 }, { scale: 1 }, "-=1");
-    slideTl.fromTo(revealText, { x: "0%" }, { x: "100%" }, "-=0.75");
+    slideTl.fromTo(revealText, { x: "0%" }, { x: "100%" });
     //Create Scene
     slideScene = new ScrollMagic.Scene({
       triggerElement: slide,
